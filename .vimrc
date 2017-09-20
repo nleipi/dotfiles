@@ -13,5 +13,11 @@ set number
 set incsearch
 set hlsearch
 set completeopt=longest,menuone
+set laststatus=2
 
 filetype plugin indent on
+
+colorscheme onedark
+let g:lightline = {
+  \ 'colorscheme': 'onedark',
+  \ }
