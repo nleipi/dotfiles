@@ -1,7 +1,6 @@
 let dotfiles_path = expand('<sfile>:p:h')
-execute 'set runtimepath+=' . dotfiles_path
-
-execute pathogen#infect()
+execute 'set rtp+=' . dotfiles_path
+execute 'set packpath+=' . dotfiles_path
 
 syntax on
 
@@ -17,6 +16,7 @@ set laststatus=2
 
 filetype plugin indent on
 
+packadd onedark
 colorscheme onedark
 
 " ALE
@@ -73,3 +73,6 @@ autocmd User ALELint call lightline#update()
 "gutentags
 let g:gutentags_add_default_project_roots=0
 let g:gutentags_project_root=['.ctags']
+
+"session
+set sessionoptions-=options
