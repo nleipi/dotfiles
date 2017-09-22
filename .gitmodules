@@ -22,3 +22,6 @@
 [submodule "pack/bundle/opt/onedark"]
 	path = pack/bundle/opt/onedark
 	url = https://github.com/joshdick/onedark.vim.git
+[submodule "pack/bundle/opt/fugitive"]
+	path = pack/bundle/opt/fugitive
+	url = https://github.com/tpope/vim-fugitive
