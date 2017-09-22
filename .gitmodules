@@ -25,3 +25,6 @@
 [submodule "pack/bundle/opt/fugitive"]
 	path = pack/bundle/opt/fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/bundle/opt/gitgutter"]
+	path = pack/bundle/opt/gitgutter
+	url = https://github.com/airblade/vim-gitgutter
