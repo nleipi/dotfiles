@@ -2,10 +2,14 @@ let dotfiles_path = expand('<sfile>:p:h')
 execute 'set rtp+=' . dotfiles_path
 execute 'set packpath+=' . dotfiles_path
 
+if exists('g:fzf_path')
+	packadd fzf
+	execute 'set rtp+=' . g:fzf_path
+endif
+
 syntax on
 
 set encoding=utf-8
-set rtp+=~/.fzf
 set backspace=indent,eol,start
 set nobackup
 set number
@@ -25,6 +29,7 @@ let g:ale_sign_error = '>>'
 let g:ale_echo_msg_error_str = 'E'
 let g:ale_echo_msg_warning_str = 'W'
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+let g:ale_lint_on_text_changed = 'never'
 "highlight link ALEWarningSign String
 "highlight link ALEErrorSign Title
 

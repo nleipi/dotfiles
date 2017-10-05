@@ -28,3 +28,6 @@
 [submodule "pack/bundle/opt/gitgutter"]
 	path = pack/bundle/opt/gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/bundle/opt/fzf"]
+	path = pack/bundle/opt/fzf
+	url = https://github.com/junegunn/fzf.vim.git
