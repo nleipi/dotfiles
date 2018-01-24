@@ -84,3 +84,4 @@ let g:gutentags_project_root=['.ctags']
 
 "session
 set sessionoptions-=options
+set sessionoptions+=resize
