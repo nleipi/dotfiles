@@ -1,3 +1,4 @@
+let g:fzf_path = '~/.fzf'
 let dotfiles_path = expand('<sfile>:p:h')
 execute 'set rtp+=' . dotfiles_path
 execute 'set packpath+=' . dotfiles_path
