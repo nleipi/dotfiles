@@ -1,0 +1,7 @@
+[user]
+	email = nikolay.semykin@googlemail.com
+	name = Nikolay Leipi
+[push]
+	default = simple
+[gitflow "feature.finish"]
+	no-ff = TRUE
