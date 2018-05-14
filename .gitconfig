@@ -5,3 +5,5 @@
 	default = simple
 [gitflow "feature.finish"]
 	no-ff = TRUE
+[core]
+	excludesfile = ~/.gitignoreglobal
