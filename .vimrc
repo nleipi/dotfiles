@@ -24,6 +24,8 @@ filetype plugin indent on
 packadd onedark
 colorscheme onedark
 
+let mapleader = ","
+
 " ALE
 let g:ale_sign_warning = '--'
 let g:ale_sign_error = '>>'
