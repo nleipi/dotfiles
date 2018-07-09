@@ -1,6 +1,12 @@
 *
-!.vim/
-!.vimrc
-!.gvimrc
-!.gitconfig
-!.gitignoreglobal
+!/.vim
+!/.vim/*/
+!/.vim/ftplugin/**
+!/.vim/pack/**
+!/.vim/autoload/**
+
+!/.vimrc
+!/.gvimrc
+!/.gitconfig
+!/.gitignoreglobal
+!/.mybashrc
