@@ -2,7 +2,8 @@
 
 # Show current git branch name
 parse_git_branch() {
-    if [ $(git rev-parse --show-toplevel) != $HOME ]
+    REPO=$(git rev-parse --show-toplevel 2> /dev/null)
+    if [ "$REPO" != "$HOME" ]
     then
         git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
     fi
