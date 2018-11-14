@@ -34,3 +34,6 @@
 [submodule ".vim/pack/bundle/start/vim-surround"]
 	path = .vim/pack/bundle/start/vim-surround
 	url = https://github.com/tpope/vim-surround
+[submodule ".vim/pack/bundle/start/vim-exchange"]
+	path = .vim/pack/bundle/start/vim-exchange
+	url = https://github.com/tommcdo/vim-exchange.git
