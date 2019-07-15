@@ -4,7 +4,7 @@ execute 'set rtp+=' . dotfiles_path
 execute 'set packpath+=' . dotfiles_path
 
 if exists('g:fzf_path')
-	packadd fzf
+	packadd fzf.vim
 	execute 'set rtp+=' . g:fzf_path
 endif
 
@@ -21,7 +21,7 @@ set laststatus=2
 
 filetype plugin indent on
 
-packadd onedark
+packadd onedark.vim
 colorscheme onedark
 
 let mapleader = ","

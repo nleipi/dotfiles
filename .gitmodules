@@ -1,0 +1,12 @@
+[submodule ".vim/pack/bundle/opt/vim-gitgutter"]
+	path = .vim/pack/bundle/opt/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule ".vim/pack/bundle/opt/onedark.vim"]
+	path = .vim/pack/bundle/opt/onedark.vim
+	url = https://github.com/joshdick/onedark.vim
+[submodule ".vim/pack/bundle/opt/fzf.vim"]
+	path = .vim/pack/bundle/opt/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule ".fzf"]
+	path = .fzf
+	url = https://github.com/junegunn/fzf
