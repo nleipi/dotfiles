@@ -7,3 +7,5 @@
 	no-ff = TRUE
 [core]
 	excludesfile = ~/.gitignoreglobal
+[merge]
+	tool = vimdiff
