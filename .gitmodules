@@ -28,3 +28,6 @@
 [submodule ".vim/pack/bundle/start/vim-surround"]
 	path = .vim/pack/bundle/start/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "/home/nleipi/.vim/pack/bundle/start/vim-addon-commandline-completion"]
+	path = /home/nleipi/.vim/pack/bundle/start/vim-addon-commandline-completion
+	url = https://github.com/MarcWeber/vim-addon-commandline-completion

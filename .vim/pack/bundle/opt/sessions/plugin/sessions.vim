@@ -45,5 +45,5 @@ endfunction
 au VimEnter * nested :call LoadSession()
 au VimLeave * :call UpdateSession()
 
-command MakeSession call MakeSession()
-command EditSession call EditSession()
+command! MakeSession call MakeSession()
+command! EditSession call EditSession()

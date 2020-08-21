@@ -7,5 +7,6 @@
 	no-ff = TRUE
 [core]
 	excludesfile = ~/.gitignoreglobal
+	editor = vim
 [merge]
 	tool = vimdiff
