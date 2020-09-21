@@ -37,3 +37,6 @@
 [submodule ".vim/pack/bundle/opt/ale"]
 	path = .vim/pack/bundle/opt/ale
 	url = https://github.com/dense-analysis/ale
+[submodule ".vim/pack/bundle/start/vim-mustache-handlebars"]
+	path = .vim/pack/bundle/start/vim-mustache-handlebars
+	url = https://github.com/mustache/vim-mustache-handlebars.git
