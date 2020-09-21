@@ -12,3 +12,25 @@ export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 
 alias vimconflict='vim `git ls-files --modified | uniq`'
 alias gitchangelog='git log `git describe --all --abbrev=0`..HEAD --oneline | sed "s/\w* //" | sort | cat'
+
+# fzf's command
+export FZF_DEFAULT_COMMAND="fd --hidden --follow --exclude '.git'"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+export FZF_ALT_C_COMMAND="$FZF_DEFAULT_COMMAND --type d"
+
+# Use fd (https://github.com/sharkdp/fd) instead of the default find
+# command for listing path candidates.
+# - The first argument to the function ($1) is the base path to start traversal
+# - See the source code (completion.{bash,zsh}) for the details.
+_fzf_compgen_path() {
+  fd --hidden --follow --exclude ".git" . "$1"
+}
+
+# Use fd to generate the list for directory completion
+_fzf_compgen_dir() {
+  fd --type d --hidden --follow --exclude ".git" . "$1"
+}
+
+source ~/.forgit/forgit.plugin.sh
+
+
