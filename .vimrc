@@ -34,3 +34,7 @@ xmap ah <Plug>(GitGutterTextObjectOuterVisual)
 "session
 set sessionoptions-=options
 set sessionoptions+=resize
+
+" Allow netrw to remove non-empty local directories
+"
+let g:netrw_localrmdir='rm -rf'
