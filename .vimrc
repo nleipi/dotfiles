@@ -38,3 +38,5 @@ set sessionoptions+=resize
 " Allow netrw to remove non-empty local directories
 "
 let g:netrw_localrmdir='rm -rf'
+
+let g:python_highlight_all = 1
