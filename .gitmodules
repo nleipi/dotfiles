@@ -58,3 +58,36 @@
 [submodule ".vim/pack/bundle/start/indentLine"]
 	path = .vim/pack/bundle/start/indentLine
 	url = https://github.com/Yggdroot/indentLine.git
+[submodule ".config/nvim/pack/git/start/fzf.vim"]
+	path = .config/nvim/pack/git/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule ".config/nvim/pack/git/start/onedark.vim"]
+	path = .config/nvim/pack/git/start/onedark.vim
+	url = https://github.com/joshdick/onedark.vim
+[submodule ".config/nvim/pack/git/start/auto-session.vim"]
+	path = .config/nvim/pack/git/start/auto-session.vim
+	url = https://github.com/rmagatti/auto-session.git
+[submodule ".config/nvim/pack/git/start/lualine.nvim"]
+	path = .config/nvim/pack/git/start/lualine.nvim
+	url = https://github.com/nvim-lualine/lualine.nvim.git
+[submodule ".config/nvim/pack/git/start/tokyonight.nvim"]
+	path = .config/nvim/pack/git/start/tokyonight.nvim
+	url = https://github.com/folke/tokyonight.nvim.git
+[submodule ".config/nvim/pack/git/start/telescope.nvim"]
+	path = .config/nvim/pack/git/start/telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim.git
+[submodule ".config/nvim/pack/git/start/plenary.nvim"]
+	path = .config/nvim/pack/git/start/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim
+[submodule ".config/nvim/pack/git/start/nvim-treesitter"]
+	path = .config/nvim/pack/git/start/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+[submodule ".config/nvim/pack/git/start/session-lens"]
+	path = .config/nvim/pack/git/start/session-lens
+	url = https://github.com/rmagatti/session-lens
+[submodule ".config/nvim/pack/git/start/vim-gitgutter"]
+	path = .config/nvim/pack/git/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule ".config/nvim/pack/git/start/nvim-lspconfig"]
+	path = .config/nvim/pack/git/start/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git
