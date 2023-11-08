@@ -37,6 +37,7 @@ require('telescope').setup{
 }
 
 require('lspconfig').eslint.setup{}
+require('lspconfig').pylsp.setup{}
 
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
